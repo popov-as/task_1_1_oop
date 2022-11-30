@@ -17,22 +17,12 @@ public class Main
         printTriangleHeight("C", triangle.getHeightC());
     }
 
-    /**
-     * Ввод стороны треугольника
-     */
     private static float readTriangleSide(String sideName, Scanner scanner)
     {
         System.out.printf("Введите длину стороны %s треугольника: ", sideName);
-        float side = scanner.nextFloat();
-
-        if (side <= 0) throw new IllegalArgumentException("Длина должна быть больше нуля");
-
-        return side;
+        return scanner.nextFloat();
     }
 
-    /**
-     * Вывод высоты треугольника
-     */
     private static void printTriangleHeight(String sideName, float height)
     {
         System.out.printf("Высота стороны %s: %.3f\n", sideName, height);
