@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Triangle {
     float sideA;
     float sideB;
