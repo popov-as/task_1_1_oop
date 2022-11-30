@@ -1,4 +1,5 @@
-public class Triangle {
+public class Triangle
+{
     float sideA;
     float sideB;
     float sideC;
